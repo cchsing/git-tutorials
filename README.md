@@ -7,3 +7,7 @@ Following the tutorial on youtube, url: https://www.youtube.com/watch?v=RGOj5yH7
 
 git clone <url> or
 git clone <ssh link>
+
+## Testing the branching of Git
+
+1. Make some modification on the index.html and see how it is reflected in the branch
