@@ -11,3 +11,7 @@ git clone <ssh link>
 ## Testing the branching of Git
 
 1. Make some modification on the index.html and see how it is reflected in the branch
+
+## Live webpage deployed
+
+URL: https://cchsing.github.io/git-tutorials/
