@@ -30,6 +30,10 @@
                     <ul>
                         <li>ssh-keygen -t rsa -b 4096 -C "email@example.com"</li>
                         <li>git remote set-url origin git@github.com:example/repo.git</li>
+                        <li>git push origin main</li>
+                        <li>git push</li>
+                        <li>ssh -T git@github.com</li>
+                        <li>ssh-add ~/.ssh/id_rsa</li>
                     </ul>
                 </p>
                 <p>Issue arise with the use of ssh-keygen. The private key is not registered for the windows ssh-agent and git push cannot be done from the visual studio code. 
