@@ -15,3 +15,11 @@ git clone <ssh link>
 ## Live webpage deployed
 
 URL: https://cchsing.github.io/git-tutorials/
+
+## Method for pushing to Github
+
+1. Create an empty repo on Github
+2. Copy the ssh link
+3. on the local machine, 'git remote add origin <ssh link>
+4. 'git remote -v' to check the config for the remote repo
+5. 'git push origin main' or 'git push -u origin main'
