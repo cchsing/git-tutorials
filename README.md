@@ -43,3 +43,18 @@ URL: https://cchsing.github.io/git-tutorials/
 2. git add .
 3. git commit -m "add new file"
 4. git push
+
+## merging branch to main
+
+```
+$ git checkout master
+$ git branch new-branch
+$ git checkout new-branch
+
+# ...develop some code...
+
+$ git add –A
+$ git commit –m "Some commit message"
+$ git checkout master
+$ git merge new-branc
+```
